@@ -1,0 +1,42 @@
+.header{
+    padding-top: 150px;
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__title{
+    font-size: 50px;
+    max-width: 600px;
+    line-height: 60px;
+}
+.header__span{
+    color: blue;
+}
+.header__img{
+    width: 500px;
+    height: 550px;
+}
+.fa-graduation-cap{
+    color: blue;
+    margin-right: 5px;
+}
+.header__text{
+    font-size: 18px;
+    color: rgb(29, 28, 28);
+    padding-top: 25px;
+    padding-bottom: 80px;
+}
+.header__link_btn{
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 40px;
+    color: white;
+    background-color: blue;
+}
+.header__link_btn:hover{
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+}
