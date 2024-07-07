@@ -1,0 +1,36 @@
+.footer__link_logo{
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+}
+.footer__logo{
+    font-size: 14px;
+    border-bottom: 2px solid blue;
+}
+.footer__link{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 15px;
+}
+.footer__link:hover{
+    text-shadow: 5px 5px 10px grey;
+    color: blue;
+}
+.footer__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__item{
+    flex-direction: column;
+    display: flex;
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.fa-location-dot,.fa-telegram,.fa-youtube,.fa-phone{
+    font-size: 26px;
+    color: black;
+    margin-right: 7px;
+}
