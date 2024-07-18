@@ -5,7 +5,7 @@
 }
 .footer__logo{
     font-size: 14px;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid red;
 }
 .footer__link{
     font-size: 18px;
@@ -14,7 +14,7 @@
 }
 .footer__link:hover{
     text-shadow: 5px 5px 10px grey;
-    color: blue;
+    color: red;
 }
 .footer__list{
     display: flex;

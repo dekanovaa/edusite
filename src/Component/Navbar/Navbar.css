@@ -13,21 +13,21 @@ sup{
     color: black;
 }
 .navbar__link:hover{
-    color: blue;
+    color: red;
 }
 .navbar__link_btn{
     font-size: 18px;
     font-weight: 600;
     padding: 20px 40px;
-    background: linear-gradient(to right, rgb(41, 41, 238), rgb(151, 151, 207));
+    background: linear-gradient(to right, rgb(246, 15, 15), rgb(223, 143, 143));
     color: white;
     border-radius: 40px;
 }
 .navbar__link_btn:hover {
-    background: linear-gradient(to right, rgb(151, 151, 207), rgb(41, 41, 238));
+    background: linear-gradient(to right, rgb(223, 143, 143),  rgb(246, 15, 15));
   }
   .navbar__link_btn:active {
-    background: linear-gradient(to right, rgb(41, 41, 238), rgb(151, 151, 207));
+    background: linear-gradient(to right, rgb(246, 15, 15), rgb(223, 143, 143));
     transform: scale(0.98);
   }
 .navbar__container{
@@ -43,9 +43,14 @@ sup{
     background-color: white;
     border:none;
     box-shadow: 2px 2px 5px rgb(191, 190, 190);
+    z-index: 10;
 }
 .navbar__nav{
     display: flex;
     align-items: center;
     gap: 50px;
+}
+.logo{
+    width: 65px;
+    height: 65px;
 }

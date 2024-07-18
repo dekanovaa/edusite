@@ -27,39 +27,39 @@ function Header() {
     <hr />
     <div className='section'>
       <div className='container section__container'>
-        <h1 className='section__title'>Avfzalliklarimiz</h1>
+        <h1 className='section__title' data-aos="zoom-in-down"  data-aos-duration="3000">Avfzalliklarimiz</h1>
         <ul className='section__list'>
-          <li className='section__item'>
+          <li className='section__item' data-aos="zoom-in"  data-aos-duration="3000">
           <i class="fa-solid fa-chalkboard-user"></i>
             <h3 className='section__name'>
               Professional ustozlardan sifatli ta'lim
             </h3>
           </li>
-          <li className='section__item'>
+          <li className='section__item'data-aos="zoom-in"  data-aos-duration="3000">
           <i class="fa-solid fa-book-open-reader"></i>
             <h3 className='section__name'>
               Har yakshanba qo'shimcha dars va test sinovlar
             </h3>
           </li>
-          <li className='section__item'>
+          <li className='section__item' data-aos="zoom-in"  data-aos-duration="3000">
           <i class="fa-solid fa-user-graduate"></i>
             <h3 className='section__name'>
               Har hafta kirish imtihonlari atmosferasida, tushish ehtimolligi yuqori bo'lgan testlar
             </h3>
           </li>
-          <li className='section__item'>
+          <li className='section__item' data-aos="zoom-in"  data-aos-duration="3000">
           <i class="fa-solid fa-award"></i>
             <h3 className='section__name'>
               Hamyonbob narxlar va kurs uchun grantlar
             </h3>
           </li>
-          <li className='section__item'>
+          <li className='section__item' data-aos="zoom-in"  data-aos-duration="3000">
           <i class="fa-solid fa-group-arrows-rotate"></i>
             <h3 className='section__name'>
               Ahil jamoa va dars uchun qulay atmosfera
             </h3>
           </li>
-          <li className='section__item'>
+          <li className='section__item' data-aos="zoom-in"  data-aos-duration="3000">
           <i class="fa-solid fa-group-arrows-rotate"></i>
             <h3 className='section__name'>
               malumot qo'shish kerak
@@ -70,21 +70,21 @@ function Header() {
     </div>
     <div className='hero'>
       <div className='container hero__container'>
-       <h1 className='hero__title'>
+       <h1 className='hero__title'data-aos="zoom-in"  data-aos-duration="3000" >
        Youtubdagi online darslarimiz
        </h1>
       <div className='hero__wrap'>
-        <a className='hero__link' href="">
+        <a className='hero__link' href="" data-aos="zoom-in"  data-aos-duration="3000">
 
         </a>
-        <a className='hero__link' href="">
+        <a className='hero__link' href="" data-aos="zoom-in"  data-aos-duration="3000">
           
           </a>
-          <a className='hero__link' href="">
+          <a className='hero__link' href=""data-aos="zoom-in"  data-aos-duration="3000">
           
           </a>
       </div>
-      <a className='hero__btn' href="#">Ko'proq ko'rish</a>
+      <a className='hero__btn' href="#" data-aos="zoom-in"  data-aos-duration="3000">Ko'proq ko'rish</a>
       </div>
 
     </div>

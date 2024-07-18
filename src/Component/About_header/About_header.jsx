@@ -8,9 +8,9 @@ function About_header() {
     <>
     <div className='about'>
         <div className='container about__container'>
+          
 
         </div>
-
     </div>
      
     </>
