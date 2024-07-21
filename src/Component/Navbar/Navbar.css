@@ -50,12 +50,7 @@
     width: 65px;
     height: 65px;
 }
-.navbar__wrap{
-  display: flex;
-  align-items: center;
-  width: 100%;
-  justify-content: space-between;
-}
+
 @media(max-width:1120px){
     .container{
       width: 1000px;
@@ -106,9 +101,11 @@
 }
 @media(max-width:420px){
     .container{
-      width: 100%;
-      padding: 0px 25px;
+      width: 95%;
+      /* padding-left: 15px;
+      padding-right: 15px; */
     }
+   
     
     .navbar{
       padding: 10px 0px;

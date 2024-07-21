@@ -123,8 +123,9 @@ margin-left: 5px;
 }
 @media(max-width:420px){
     .container{
-      width: 100%;
-      padding: 0px 25px;
+      width: 95%;
+      /* padding-left: 15px;
+      padding-right: 15px; */
     }
     .cours__title{
         font-size: 30px;

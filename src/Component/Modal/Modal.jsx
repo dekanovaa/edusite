@@ -60,7 +60,8 @@ function Modal() {
 
     return(
         <>
-         {[ 'right'].map((anchor) => (
+        
+        {[ 'right'].map((anchor) => (
         <React.Fragment key={anchor}>
           <Button onClick={toggleDrawer(anchor, true)}><i class="fa-solid fa-bars"></i></Button>
           <Drawer
@@ -72,6 +73,7 @@ function Modal() {
           </Drawer>
         </React.Fragment>
       ))}
+        
         </>
     )
 }

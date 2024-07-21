@@ -25,6 +25,10 @@
     flex-direction: column;
     display: flex;
 }
+.footer__item_1{
+  flex-direction: column;
+    display: flex;
+}
 .footer{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -53,7 +57,7 @@
     .container{
       width: 700px;
     }
-    .footer__logo,.footer__link_logo{
+    .footer__item_1{
       display: none;
     }
     
@@ -75,8 +79,9 @@
 }
 @media(max-width:420px){
     .container{
-      width: 100%;
-      padding: 0px 25px;
+      width: 95%;
+      /* padding-left: 15px;
+      padding-right: 15px; */
     }
     .footer__link{
       font-size: 16px;

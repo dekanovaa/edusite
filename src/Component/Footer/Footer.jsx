@@ -19,7 +19,7 @@ function Footer() {
      <div className='footer'>
         <div className='container footer__container'>
             <ul className='footer__list'>
-                <li className='footer__item' data-aos="zoom-in" >
+                <li className='footer__item_1' data-aos="zoom-in" >
                     <Link to="/" className='footer__link_logo'><img className='logo' src={logo} alt="" /></Link>
                     <p className='footer__logo'>MATEMATIKAGA IQTISOSLASHGAN O'QUV MARKAZI</p>
                 </li>

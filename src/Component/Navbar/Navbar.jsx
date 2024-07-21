@@ -10,7 +10,6 @@ function Navbar() {
   return (
     <>
     <div className='navbar'>
-      <div className='navbar__wrap'>
       <div className='container navbar__container'>
         <Link to="/"><img className='logo' src={logo} alt="logo" /></Link>
         <nav className='navbar__nav'>
@@ -20,8 +19,6 @@ function Navbar() {
           <Link to="/course" className='navbar__link'>Kurslar</Link>
         </nav>
         <Link to="/contact" className='navbar__link_btn'>Kursga yozilish</Link>
-       
-      </div>
       <Modal/>
       </div>
     </div>
