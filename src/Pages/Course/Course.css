@@ -1,0 +1,144 @@
+.cours{
+    padding-top: 150px;
+    background-color:aliceblue;
+    padding-bottom: 100px;
+   text-align: center;
+}
+.fa-arrow-down:hover{
+    color: red;
+}
+.fa-arrow-down{
+margin-left: 5px;
+}
+.cours__item{
+    width: 29%;
+    height: 430px;
+    border: none;
+    padding: 15px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgb(179, 177, 177);
+}
+.cours__list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.cours__img{
+    width: 100%;
+    height: 250px;
+}
+.cours__title{
+    font-size: 40px;
+    text-align: center;
+
+}
+.cours__name{
+    font-size: 26px;
+    padding-top: 15px;
+    text-align: start;
+}
+.cours__span{
+    color: red;
+}
+.cours__text{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap:3px;
+    padding-top: 15px;
+    text-align: center;
+}
+@media(max-width:1120px){
+    .container{
+      width: 1000px;
+    }
+}
+@media(max-width:1020px){
+    .container{
+      width: 900px;
+    }
+}
+@media(max-width:920px){
+    .container{
+      width: 800px;
+    }
+    .cours__item{
+        width: 43%;
+        height: 430px;
+        border: none;
+        padding: 15px;
+        background-color: white;
+        margin-top: 20px;
+        border-radius: 25px;
+        box-shadow: 5px 5px 15px rgb(179, 177, 177);
+    }
+}
+@media(max-width:820px){
+    .container{
+      width: 700px;
+    }
+}
+@media(max-width:720px){
+    .container{
+      width: 600px;
+    }
+}
+@media(max-width:620px){
+    .container{
+      width: 500px;
+    }
+    .cours__item{
+        width: 100%;
+        height: 480px;
+        border: none;
+        padding: 15px;
+        background-color: white;
+        margin-top: 20px;
+        border-radius: 25px;
+        box-shadow: 5px 5px 15px rgb(179, 177, 177);
+    }
+    .cours__img{
+        width: 100%;
+        height: 300px;
+    }
+    .cours__title{
+        font-size: 35px;
+        text-align: center;
+    
+    }
+}
+@media(max-width:520px){
+    .container{
+      width: 400px;
+    }
+    .cours__img{
+        width: 100%;
+        height: 270px;
+    }
+}
+@media(max-width:420px){
+    .container{
+      width: 100%;
+      padding: 0px 15px;
+    }
+    .cours__title{
+        font-size: 30px;
+        text-align: center;
+    
+    }
+    .cours__name{
+        font-size: 22px;
+        padding-top: 15px;
+        text-align: start;
+    }
+    .cours__img{
+        width: 100%;
+        height: 240px;
+    }
+   
+}

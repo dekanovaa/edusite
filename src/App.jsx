@@ -4,10 +4,19 @@ import './App.css'
 import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
 import Contact from './Pages/Contact/Contact'
-import AOS from 'aos';
+import New from './Pages/New/New'
+import Course from './Pages/Course/Course'
 import 'aos/dist/aos.css'; 
+import { useEffect } from 'react'
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(function () {
+    Aos.init({ duration: 1000 });
+   
+    
+  }, []);
  
 
   return (
@@ -27,8 +36,8 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/contact" element={<Contact/>}/>
-      {/* <Route path="/new" element={<New/>}/>
-      <Route path="/course" element={<Course/>}/> */}
+      <Route path="/new" element={<New/>}/>
+      <Route path="/course" element={<Course/>}/>
 
     </Routes>
      

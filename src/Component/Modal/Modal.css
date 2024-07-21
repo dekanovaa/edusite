@@ -1,0 +1,45 @@
+.fa-bars{
+    display: none;
+    color: black;
+    font-size: 30px;
+}
+@media(max-width:920px){
+    .container{
+      width: 800px;
+    }
+    .navbar__nav{
+      display: none;
+    }
+    .navbar__link_btn{
+      display: none;
+    }
+    .fa-bars{
+      display: block;
+    }
+}
+.modal__wrap{
+    display: flex;
+    flex-direction: column;
+}
+.modal__link{
+    color: black;
+    font-size: 18px;    
+    padding-top: 10px;
+}
+.modal__link_btn{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+    padding: 20px 40px;
+    background: linear-gradient(to right, rgb(246, 15, 15), rgb(223, 143, 143));
+    color: white;
+    border-radius: 40px;
+}
+.modal__btn{
+    background: none;
+    border: none;
+    text-align: start;
+    font-size: 20px;
+    color: red;
+    padding-bottom: 15px;
+}
