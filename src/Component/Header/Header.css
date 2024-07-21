@@ -290,7 +290,7 @@
 @media(max-width:420px){
     .container{
       width: 100%;
-      padding: 0px 15px;
+      padding: 0px 25px;
     }
     .section__title{
         font-size: 35px;

@@ -50,6 +50,12 @@
     width: 65px;
     height: 65px;
 }
+.navbar__wrap{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
 @media(max-width:1120px){
     .container{
       width: 1000px;
@@ -69,6 +75,9 @@
       gap: 0px;
     }
     .navbar__link_btn{
+      display: none;
+    }
+    .navbar__link{
       display: none;
     }
     .fa-bars{
@@ -98,7 +107,7 @@
 @media(max-width:420px){
     .container{
       width: 100%;
-      padding: 0px 15px;
+      padding: 0px 25px;
     }
     
     .navbar{
