@@ -48,9 +48,9 @@ function Contact() {
             <form className='contact__form' id="form" onSubmit={sendMessage}>
             <img src={logo} alt="logo" className='logo'/><br />
             <h1 className='contact__title'>Kursga yozilish</h1><br />
-                <input type="text" id='name' placeholder='Ism'/><br />
-                <input type="text" id='surname' placeholder='Familiya' /><br />
-                <input type="text" id='tel' placeholder='+998' /><br />
+                <input type="text" id='name' placeholder='Ism' required/><br />
+                <input type="text" id='surname' placeholder='Familiya' required/><br />
+                <input type="number" id='tel' placeholder='+998' required/><br />
                 <select id="kurs">
                     <option value="">Kursni tanlang</option>
                     <option value="math">Asosiy matematika</option>
