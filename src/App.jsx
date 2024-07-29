@@ -10,6 +10,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react'
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { useTranslation } from 'react-i18next'
 
 function App() {
   useEffect(function () {
@@ -17,6 +18,9 @@ function App() {
    
     
   }, []);
+
+  const {t,i18n} = useTranslation();
+  
  
 
   return (

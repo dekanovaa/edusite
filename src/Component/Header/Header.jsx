@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 import dars1 from '../../assets/dars1.mp4'
 import dars2 from '../../assets/dars2.mp4'
 import dars3 from '../../assets/dars3.mp4'
+import { t } from 'i18next';
 
 
 function Header() {
@@ -24,13 +25,13 @@ function Header() {
       <div className='container header__container'>
         <div className='header__wrap'  >
           <h1 className='header__title'>
-            Biz bilan <span className='header__span'>maqsadlar</span> aniq, <span className='header__span'>harakatlar</span> to'g'ri va <span className='header__span'>natija</span> kutilgandek bo'ladi
+            {t('header.title1')}<span className='header__span'>{t('header.span1')}</span> {t('header.title2')} <span className='header__span'>{t('header.span2')}</span> {t('header.title3')} <span className='header__span'>{t('header.span3')}</span> {t('header.title4')}
           </h1>
           <p className='header__text'>
           <i class="fa-solid fa-graduation-cap"></i>
-          1000 dan ziyod abiturientlarni talabalikka kuzatganmiz
+         {t('header.text7')}
           </p>
-          <Link to="/contact" className='header__link_btn'>Kursga yozilish</Link>
+          <Link to="/contact" className='header__link_btn'>{t('navbar.btn')}</Link>
         </div>
         <img className='header__img' src={student} alt="" />
       </div>
@@ -38,42 +39,42 @@ function Header() {
     <hr />
     <div className='section'>
       <div className='container section__container'>
-        <h1 className='section__title' data-aos="zoom-in-down">Avfzalliklarimiz</h1>
+        <h1 className='section__title' data-aos="zoom-in-down">{t('header.name1')}</h1>
         <ul className='section__list'>
           <li className='section__item' data-aos="zoom-in" >
           <i class="fa-solid fa-chalkboard-user"></i>
             <h3 className='section__name'>
-              Professional ustozlardan sifatli ta'lim
+             {t('header.text1')}
             </h3>
           </li>
           <li className='section__item'data-aos="zoom-in" >
           <i class="fa-solid fa-book-open-reader"></i>
             <h3 className='section__name'>
-              Har yakshanba qo'shimcha dars va test sinovlar
+            {t('header.text2')}
             </h3>
           </li>
           <li className='section__item' data-aos="zoom-in" >
           <i class="fa-solid fa-user-graduate"></i>
             <h3 className='section__name'>
-              Har hafta kirish imtihonlari atmosferasida, tushish ehtimolligi yuqori bo'lgan testlar
+            {t('header.text3')}
             </h3>
           </li>
           <li className='section__item' data-aos="zoom-in" >
           <i class="fa-solid fa-award"></i>
             <h3 className='section__name'>
-              Hamyonbob narxlar va kurs uchun grantlar
+            {t('header.text4')}
             </h3>
           </li>
           <li className='section__item' data-aos="zoom-in" >
           <i class="fa-solid fa-group-arrows-rotate"></i>
             <h3 className='section__name'>
-              Ahil jamoa va dars uchun qulay atmosfera
+            {t('header.text5')}
             </h3>
           </li>
           <li className='section__item' data-aos="zoom-in" >
           <i class="fa-solid fa-group-arrows-rotate"></i>
             <h3 className='section__name'>
-              Doimiy nazorat qo'llab quvvatlash
+            {t('header.text6')}
             </h3>
           </li>
         </ul>
@@ -82,7 +83,7 @@ function Header() {
     <div className='hero'>
       <div className='container hero__container'>
        <h1 className='hero__title'data-aos="zoom-in"  >
-       Youtubdagi online darslarimiz
+       {t('header.name2')}
        </h1>
       <div className='hero__wrap'>
       <video className='hero__link' controls >
@@ -95,7 +96,7 @@ function Header() {
       <source src={dars3} type="video/mp4"/>
      </video>
       </div>
-      <a className='hero__btn' href="#" data-aos="zoom-in" >Ko'proq ko'rish</a>
+      <a className='hero__btn' href="#" data-aos="zoom-in" >{t('header.btn')}</a>
       </div>
 
     </div>

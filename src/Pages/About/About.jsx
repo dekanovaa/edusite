@@ -20,6 +20,7 @@ import 'swiper/css';
 import 'swiper/css/thumbs';
 import 'swiper/css/navigation';
 import { Autoplay,Thumbs, Navigation } from 'swiper/modules';
+import { t } from 'i18next'
 
 
 function About() {
@@ -31,26 +32,26 @@ function About() {
     <Navbar/>
     <div className='about'>
       <div className='container about__container'>
-      <h1 className='about__title'>Biz haqimizda</h1>
+      <h1 className='about__title'>{t('about.title')}</h1>
           <div className='about__wrap'>
           <div className='about__wrapper' data-aos="zoom-in-down">
           <i class="fa-solid fa-check"></i>
           <h3 className='about__name'>
-         
-            Bizning o'qituvchimiz va rahbarimiz ko'p yillik tajribaga ega matematik
+         {t('about.text1')}
             </h3>
             <a href={teacher}><img className='about__img' src={teacher} alt="" /></a>
             </div>
            <div className='about__wrapper' data-aos="zoom-in-down">
            <i class="fa-solid fa-check"></i>
            <h3 className='about__name'>
-           Jamoamiz uzoq yillardan buyon abiturientlarni matematika va fizika fanlaridan kirish imtihonlariga tayyorlaydi va bugungacha yaxshi natijalarni ko'rsatib kelmoqda.</h3>
+          {t('about.text2')}
+          </h3>
            <img className='about__img' src={exam} alt="" />
            </div>
            <div className='about__wrapper' data-aos="zoom-in-down">
            <i class="fa-solid fa-check"></i>
            <h3 className='about__name' >
-           Bizda abiturientlar muddatdan oldin blok test topshirib o'z potensiallarini baholay olishadi
+           {t('about.text3')}
            </h3>
           <div className='about__slide' data-aos="zoom-in-down">
           <Swiper
@@ -106,7 +107,7 @@ function About() {
           </div>
            </div>
            <h3 className='about__subtitle' data-aos="zoom-in-down">
-             Ahil jamoamiz bilan imtihonlardan keyingi hordiqlar <i class="fa-solid fa-face-smile"></i>
+            {t('about.name')}<i class="fa-solid fa-face-smile"></i>
            </h3>
            <div className='about__box' data-aos="zoom-in-down">
             <img className='about__image' src={biz1} alt="img1" />

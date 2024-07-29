@@ -50,6 +50,15 @@
     width: 65px;
     height: 65px;
 }
+#lang{
+  border: none;
+  font-size: 20px;
+   outline: none;
+}
+#uz,#en,#ru{
+  border: none;
+  
+}
 
 @media(max-width:1120px){
     .container{
@@ -73,6 +82,9 @@
       display: none;
     }
     .navbar__link{
+      display: none;
+    }
+    #lang{
       display: none;
     }
     .fa-bars{

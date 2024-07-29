@@ -1,0 +1,59 @@
+{
+    "navbar":{
+        "link1":"Asosiy sahiha",
+        "link2":"Biz haqimizda",
+        "link3":"Yangiliklar",
+        "link4":"Kurslar",
+        "btn":"Kursga yozilish"
+    },
+    "header":{
+        "title1":"Biz bilan ",
+        "title2":"aniq",
+        "title3":"to'g'ri va",
+        "title4":"kutilgandek bo'ladi!",
+        "span1":"maqsadlar",
+        "span2":"harakatlar",
+        "span3":"natija",
+        "name1":"Avfzalliklarimiz",
+        "name2":"Yutubdagi darslarimiz",
+        "btn":"Ko'proq ko'rish",
+        "text1":"Professional ustozlardan sifatli ta'lim",
+        "text2":"Har yakshanba qo'shimcha dars va test sinovlar",
+        "text3":"Har hafta kirish imtihonlari atmosferasida, tushish ehtimolligi yuqori bo'lgan testlar",
+        "text4":"Hamyonbob narxlar va kurs uchun grantlar",
+        "text5":"Ahil jamoa va dars uchun qulay atmosfera",
+        "text6":"Doimiy nazorat qo'llab quvvatlash",
+        "text7":"1000 dan ziyod abiturientlarni talabalikka kuzatganmiz"
+
+    },
+    "footer":{
+        "text1":"Telegram guruhimiz",
+        "text2":"Yutubdagi darslarimiz",
+        "text3":"Bizning manzilimiz",
+        "text4":"Biz bilan bog'laning",
+        "text5":"MATEMATIKAGA IQTISOSLASHGAN O'QUV MARKAZI"
+    },
+    "about":{
+        "title":"Biz haqimizda",
+        "text1":" Bizning o'qituvchimiz va rahbarimiz ko'p yillik tajribaga ega matematik",
+        "text2":"Jamoamiz uzoq yillardan buyon abiturientlarni matematika va fizika fanlaridan kirish imtihonlariga tayyorlaydi va bugungacha yaxshi natijalarni ko'rsatib kelmoqda.",
+        "text3":"Bizda abiturientlar muddatdan oldin blok test topshirib o'z potensiallarini baholay olishadi",
+        "name":"Ahil jamoamiz bilan imtihonlardan keyingi hordiqlar",
+        "text7":"Bitiruvchilarimizning natijalari",
+        "text8":"Milliy sertifikat imtihonini topshirgan o'quvchilarimiz natijalari"
+    },
+    "kurs":{
+        "name":"Bizning kurslarimiz",
+        "text1":"Asosiy matematika bloki uchun tayyorlov",
+        "text2":"Majburiy matematika bloki uchun tayyorlov",
+        "text3":"Asosiy fizika bloki uchun tayyorlov",
+        "text4":"Matematika milliy sertifikat uchun tayyorlov",
+        "text5":"Fizika milliy sertifikat uchun tayyorlov",
+        "text6":"Dars kunlari: ",
+        "text7":"haftada 3 kun",
+        "text8":"Kurs narxi: ",
+        "text9":"300 000 so'm"
+
+    }
+
+}

@@ -3,6 +3,18 @@
     color: black;
     font-size: 30px;
 }
+.modal__lang_btn{
+  border: none;
+  padding: 10px;
+  width: 40px;
+ color: red;
+ background-color: white;
+}
+.modal__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 @media(max-width:920px){
     .container{
       width: 800px;

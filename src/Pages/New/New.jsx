@@ -23,6 +23,7 @@ import slide13 from '../../assets/m1.jpg'
 import slide14 from '../../assets/m2.jpg'
 import slide15 from '../../assets/m3.jpg'
 import slide16 from '../../assets/m4.jpg'
+import { t } from 'i18next';
 
 function New() {
  
@@ -33,7 +34,7 @@ function New() {
     <div className='new'>
       <div className='container new__container'>
         <h1 className='new__title'>
-          Bitiruvchilarimizning natijalari
+          {t('about.text7')}
           <i class="fa-solid fa-arrow-down"></i>
         </h1>
        <div className='slider' data-aos="zoom-in-down">
@@ -91,7 +92,7 @@ function New() {
 
        </div>
        <h1 className='new__title' data-aos="zoom-in-down">
-        Milliy sertifikat imtihonini topshirgan o'quvchilarimiz natijalari
+        {t('about.text8')}
         <i class="fa-solid fa-arrow-down"></i>
 
        </h1>

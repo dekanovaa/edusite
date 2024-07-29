@@ -1,0 +1,57 @@
+{
+    "navbar":{
+        "link1":"Home",
+        "link2":"About Us",
+        "link3":"News",
+        "link4":"Courses",
+        "btn":"Registration"
+    },
+    "header":{
+        "title1":"With us, ",
+        "title2":"are clear,",
+        "title3":"are correct and the ",
+        "title4":"will be as expected!",
+        "span1":"the goals ",
+        "span2":"the actions ",
+        "span3":"result",
+        "name1": "Our Advantages",
+        "name2": "Our YouTube Lessons",
+        "btn": "See More",
+        "text1": "Quality education from professional tutors",
+        "text2": "Additional lessons and test trials every Sunday",
+        "text3": "Weekly entrance exams with high probability test questions",
+        "text4": "Affordable prices and grants for the course",
+        "text5": "Friendly team and comfortable atmosphere for lessons",
+        "text6": "Constant supervision and support",
+        "text7":"We have monitored more than 1000 applicants"
+    },
+    
+        "footer": {
+            "text1": "Our Telegram Group",
+            "text2": "Our YouTube Lessons",
+            "text3": "Our Address",
+            "text4": "Contact Us",
+            "text5":"Mathematics Specialized Learning Center"
+        },
+        "about": {
+            "title": "About Us",
+            "text1": "Our teacher and leader is a mathematician with many years of experience.",
+            "text2": "Our team has been preparing students for entrance exams in mathematics and physics for many years and has shown good results to this day.",
+            "text3": "Our students can take block tests in advance to assess their potential.",
+            "name": "Relaxation after exams with our friendly team",
+            "text7":"Results of our graduates",
+            "text8":"The results of our students who passed the national certificate exam"
+        },
+        "kurs": {
+            "name": "Our Courses",
+            "text1": "Preparation for the Basic Mathematics Block",
+            "text2": "Preparation for the Compulsory Mathematics Block",
+            "text3": "Preparation for the Basic Physics Block",
+            "text4": "Preparation for the National Mathematics Certificate",
+            "text5": "Preparation for the National Physics Certificate",
+            "text6": "Lesson days: ",
+            "text7": "3 days a week",
+            "text8": "Course fee: ",
+            "text9": "300,000 UZS"
+        }
+}

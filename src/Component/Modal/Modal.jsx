@@ -12,9 +12,15 @@ import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 
 function Modal() {
+  const { t, i18n } = useTranslation();
+  const handleChange = (event) => {
+    i18n.changeLanguage(event)
+
+  }
     const [state, setState] = React.useState({
         right: false,
       });
@@ -38,11 +44,16 @@ function Modal() {
             {[
               <div className='modal__wrap'>
                 <button className='modal__btn'>X</button>
-              <Link to="/" className='modal__link'>Asosiy sahifa</Link>
-          <Link to="/about" className='modal__link'>Biz haqimizda</Link>
-          <Link to="/new" className='modal__link'>Yangiliklar</Link>
-          <Link to="/course" className='modal__link'>Kurslar</Link>
-          <Link to="/contact" className='modal__link_btn'>Kursga yozilish</Link>
+              <Link to="/" className='modal__link'>{t('navbar.link1')}</Link>
+          <Link to="/about" className='modal__link'>{t('navbar.link2')}</Link>
+          <Link to="/new" className='modal__link'>{t('navbar.link3')}</Link>
+          <Link to="/course" className='modal__link'>{t('navbar.link4')}</Link>
+        <div className='modal__wrapper'>
+        <button className='modal__lang_btn' onClick={()=>handleChange('uz')} >UZ</button>
+          <button className='modal__lang_btn' onClick={()=>handleChange('en')} >EN</button>
+          <button className='modal__lang_btn' onClick={()=>handleChange('ru')} >RU</button>
+        </div>
+          <Link to="/contact" className='modal__link_btn'>{t('navbar.btn')}</Link>
               </div>
             ].map((text, index) => (
               <ListItem key={text} disablePadding>
